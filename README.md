@@ -19,8 +19,8 @@ pip install selenium
 - `gallog cleaner.py` 상단에서 아래 항목을 설정하세요.
 
 ```python
-DC_ID = os.environ.get('GALLOG_ID', 'your_id_here')
-DC_PW = os.environ.get('GALLOG_PW', 'your_password_here')
+DC_ID = os.environ.get('GALLOG_ID', '식별 코드 입력')
+DC_PW = os.environ.get('GALLOG_PW', '비밀번호 입력')
 
 # 삭제할 키워드 (빈 문자열이면 전체 삭제, 값이 있으면 해당 키워드 포함 글만 삭제)
 KEYWORD = ''  # 예: '테스트' 또는 ''
